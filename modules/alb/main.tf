@@ -1,6 +1,6 @@
-# # ALB Security Group
-# resource "aws_security_group" "this" {
-#   vpc_id = var.vpc_id
+ALB Security Group
+resource "aws_security_group" "this" {
+ vpc_id = var.vpc_id
 
 #   ingress {
 #     description = "HTTP from Internet"
